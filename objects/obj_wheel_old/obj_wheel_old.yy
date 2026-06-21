@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wheel",
+  "%Name":"obj_wheel_old",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -11,11 +11,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_wheel",
+  "name":"obj_wheel_old",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spin to Win",
-    "path":"Spin to Win.yyp",
+    "name":"Old Holder",
+    "path":"folders/Old Holder.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wheel",
-    "path":"sprites/spr_wheel/spr_wheel.yy",
+    "name":"spr_wheel_old",
+    "path":"sprites/spr_wheel_old/spr_wheel_old.yy",
   },
   "spriteMaskId":null,
   "visible":true,

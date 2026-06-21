@@ -8,8 +8,8 @@
   "name":"obj_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spin to Win",
-    "path":"Spin to Win.yyp",
+    "name":"Spin Office",
+    "path":"folders/Spin Office.yy",
   },
   "parentObjectId":null,
   "persistent":false,
