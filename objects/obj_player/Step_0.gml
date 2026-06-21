@@ -9,7 +9,7 @@ if(place_meeting(x, y + ysp, obj_platform)){
 }
 y += ysp;
 
-if keyboard_check_pressed(vk_space)
+if keyboard_check_pressed(vk_space) and place_meeting(x, y+2, obj_platform)
 {
 	jumping = true;
 	alarm[0] = 15;
