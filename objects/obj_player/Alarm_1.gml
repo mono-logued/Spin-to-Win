@@ -1,2 +1,1 @@
-ysp += 0.1;
-jumping = false;
+ysp = 0.9;
