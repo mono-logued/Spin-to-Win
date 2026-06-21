@@ -1,1 +1,1 @@
-global.spinWheel = true;
+spinWheel = true;

@@ -1,2 +1,2 @@
-spinning = true;
-global.spinWheel = false;
+
+slowSpin = true;

@@ -1,2 +1,4 @@
+spinWheel = false;
+startSpin = false;
 spinVar = 0;
-spinning = false;
+slowSpin = false;
