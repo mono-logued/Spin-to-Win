@@ -21,3 +21,10 @@ if jumping == true
 	ysp = -1;
 	//alarm[0] = 1;
 }
+
+if place_meeting(x, y, obj_hazard) and invincibilityTime = false
+{
+	invincibilityTime = true;
+	healthPoints -= 1;
+	alarm[2] = 5;
+}

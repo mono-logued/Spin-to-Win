@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hazard_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_hazard",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hazard_1",
+  "name":"obj_hazard",
   "overriddenProperties":[],
   "parent":{
     "name":"Spin Office",
     "path":"folders/Spin Office.yy",
   },
-  "parentObjectId":{
-    "name":"obj_hazard",
-    "path":"objects/obj_hazard/obj_hazard.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_hazard_1",
-    "path":"sprites/spr_hazard_1/spr_hazard_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
