@@ -1,1 +1,1 @@
-image_angle += 1
+image_angle += global.turnSpeed
