@@ -38,7 +38,7 @@
   "name":"rm_main",
   "parent":{
     "name":"Rooms",
-    "path":"folders/Spin Office/Rooms.yy",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

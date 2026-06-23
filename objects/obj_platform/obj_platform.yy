@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Blocks",
-    "path":"folders/Spin Office/Objects/Blocks.yy",
+    "path":"folders/Objects/Blocks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

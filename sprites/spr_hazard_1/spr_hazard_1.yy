@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Hazards",
-    "path":"folders/Spin Office/Sprites/Hazards.yy",
+    "path":"folders/Sprites/Hazards.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

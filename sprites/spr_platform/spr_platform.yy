@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Blocks",
-    "path":"folders/Spin Office/Sprites/Blocks.yy",
+    "path":"folders/Sprites/Blocks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
