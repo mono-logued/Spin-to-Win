@@ -9,10 +9,13 @@
   "name":"obj_hazard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hazards",
-    "path":"folders/Objects/Hazards.yy",
+    "name":"Game Essential",
+    "path":"folders/Objects/Game Essential.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_rotating",
+    "path":"objects/obj_rotating/obj_rotating.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

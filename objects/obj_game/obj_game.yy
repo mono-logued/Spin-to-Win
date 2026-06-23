@@ -12,8 +12,8 @@
   "name":"obj_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Game Essential",
+    "path":"folders/Objects/Game Essential.yy",
   },
   "parentObjectId":null,
   "persistent":false,
