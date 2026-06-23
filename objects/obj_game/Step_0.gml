@@ -1,5 +1,5 @@
-if coinCreated == false
+if coinCreated == false //if the alarm isn't active
 {
-	coinCreated = true;
-	alarm[0] = random_range(150,450);
+	coinCreated = true; //deactivate the alarm
+	alarm[0] = random_range(100,450);
 }

@@ -1,8 +1,7 @@
 window_set_size(1280, 720);
 
-global.turnSpeed = 1;
+global.turnSpeed = 1; //speed of the wheel
 
-global.coinCount = 0;
+global.coinCount = 0; //setting score to 0
 
-coinCreated = false;
-//alarm[0] = 15;//a test to turn the speed up and back to normal.
+coinCreated = false; //allowing the coin creation alarm to start.
