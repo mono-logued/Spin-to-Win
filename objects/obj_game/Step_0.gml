@@ -9,3 +9,4 @@ if hazardCreated == false //if the alarm isn't active
 	hazardCreated = true; //deactivate the alarm
 	alarm[1] = random_range(50,120);
 }
+
