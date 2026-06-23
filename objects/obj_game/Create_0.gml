@@ -5,3 +5,5 @@ global.turnSpeed = 1; //speed of the wheel
 global.coinCount = 0; //setting score to 0
 
 coinCreated = false; //allowing the coin creation alarm to start.
+
+hazardCreated = false;
