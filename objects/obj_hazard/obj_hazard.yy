@@ -9,8 +9,8 @@
   "name":"obj_hazard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spin Office",
-    "path":"folders/Spin Office.yy",
+    "name":"Hazards",
+    "path":"folders/Spin Office/Objects/Hazards.yy",
   },
   "parentObjectId":null,
   "persistent":false,

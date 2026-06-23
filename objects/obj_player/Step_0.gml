@@ -28,3 +28,4 @@ if place_meeting(x, y, obj_hazard) and invincibilityTime = false
 	healthPoints -= 1;
 	alarm[2] = 5;
 }
+

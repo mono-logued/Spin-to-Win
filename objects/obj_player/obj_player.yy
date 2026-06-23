@@ -13,8 +13,8 @@
   "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spin Office",
-    "path":"folders/Spin Office.yy",
+    "name":"Objects",
+    "path":"folders/Spin Office/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

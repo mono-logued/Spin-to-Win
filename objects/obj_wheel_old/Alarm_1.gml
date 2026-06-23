@@ -1,2 +1,0 @@
-
-slowSpin = true;

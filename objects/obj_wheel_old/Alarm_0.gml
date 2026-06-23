@@ -1,2 +1,0 @@
-startSpin = true;
-spinWheel = false;

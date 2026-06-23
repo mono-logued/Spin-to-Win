@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Spin Office",
-    "path":"folders/Spin Office.yy",
+    "name":"Sprites",
+    "path":"folders/Spin Office/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

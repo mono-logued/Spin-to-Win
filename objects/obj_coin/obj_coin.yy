@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_platform",
+  "%Name":"obj_coin",
   "eventList":[],
   "managed":true,
-  "name":"obj_platform",
+  "name":"obj_coin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Spin Office/Objects/Blocks.yy",
+    "name":"Objects",
+    "path":"folders/Spin Office/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_platform",
-    "path":"sprites/spr_platform/spr_platform.yy",
+    "name":"spr_coin",
+    "path":"sprites/spr_coin/spr_coin.yy",
   },
   "spriteMaskId":null,
   "visible":true,
