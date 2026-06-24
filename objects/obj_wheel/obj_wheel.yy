@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wheel",
-    "path":"sprites/spr_wheel/spr_wheel.yy",
+    "name":"spr_cubicles",
+    "path":"sprites/spr_cubicles/spr_cubicles.yy",
   },
   "spriteMaskId":null,
   "visible":true,
