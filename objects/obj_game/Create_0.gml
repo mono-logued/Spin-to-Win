@@ -10,6 +10,8 @@ hazardCreated = false; //allowing the hazard creation alarm to start.
 
 bgCreated = false; //allowing background creation alarm to start.
 
+pausedGame = false;
+
 if layer_get_visible("Walls") = true //hiding the platform/wall UI
 {
 	layer_set_visible("Walls", false)
