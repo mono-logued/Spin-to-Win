@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wheel",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_bgitem_2",
+  "eventList":[],
   "managed":true,
-  "name":"obj_wheel",
+  "name":"obj_bgitem_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"BG Items",
+    "path":"folders/Objects/BG Items.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_rotating",
+    "path":"objects/obj_rotating/obj_rotating.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cubicles",
-    "path":"sprites/spr_cubicles/spr_cubicles.yy",
+    "name":"spr_bgitem_2",
+    "path":"sprites/spr_bgitem_2/spr_bgitem_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
