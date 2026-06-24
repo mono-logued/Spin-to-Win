@@ -25,7 +25,7 @@ if jumping == true
 if place_meeting(x, y, obj_hazard) and invincibilityTime = false
 {
 	invincibilityTime = true;
-	healthPoints -= 1;
-	alarm[2] = 5;
+	global.healthPoints -= 1;
+	alarm[2] = 10;
 }
 
