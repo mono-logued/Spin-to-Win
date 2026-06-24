@@ -12,6 +12,8 @@ bgCreated = false; //allowing background creation alarm to start.
 
 pausedGame = false;
 
+paused_surf = -1;
+
 if layer_get_visible("Walls") = true //hiding the platform/wall UI
 {
 	layer_set_visible("Walls", false)
