@@ -56,6 +56,7 @@
     {"id":{"name":"spr_hazard_2","path":"sprites/spr_hazard_2/spr_hazard_2.yy",},},
     {"id":{"name":"spr_hazard_3","path":"sprites/spr_hazard_3/spr_hazard_3.yy",},},
     {"id":{"name":"spr_health_wheel","path":"sprites/spr_health_wheel/spr_health_wheel.yy",},},
+    {"id":{"name":"spr_officeplant","path":"sprites/spr_officeplant/spr_officeplant.yy",},},
     {"id":{"name":"spr_palette_cc_29","path":"sprites/spr_palette_cc_29/spr_palette_cc_29.yy",},},
     {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
