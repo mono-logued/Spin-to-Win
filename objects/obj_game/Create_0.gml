@@ -12,3 +12,6 @@ if layer_get_visible("Walls") = true //hiding the platform/wall UI
 {
 	layer_set_visible("Walls", false)
 }
+
+
+view_set_visible(global.viewPort, true);
