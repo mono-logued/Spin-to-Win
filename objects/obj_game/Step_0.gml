@@ -1,4 +1,4 @@
-if coinCreated == false //if the alarm isn't active
+if coinCreated == false//if the alarm isn't active
 {
 	coinCreated = true; //deactivate the alarm
 	alarm[0] = irandom_range(100,450);
@@ -23,4 +23,11 @@ if keyboard_check_pressed(vk_escape)
 if global.pausedGame == false
 {
 	global.turnSpeed = global.backupSpeed;
+}
+
+if global.pausedGame == true
+{
+	alarm[0]++;
+	alarm[1]++;
+	alarm[2]++;
 }
