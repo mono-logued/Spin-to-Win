@@ -1,4 +1,4 @@
 if unbreakable == false
 {
-	instance_destroy()
+	instance_destroy();
 }
