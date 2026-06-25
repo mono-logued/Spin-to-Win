@@ -28,4 +28,3 @@ if place_meeting(x, y, obj_hazard) and invincibilityTime = false
 	global.healthPoints -= 1;
 	alarm[2] = 10;
 }
-
