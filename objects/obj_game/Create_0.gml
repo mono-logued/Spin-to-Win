@@ -13,6 +13,11 @@ bgCreated = false; //allowing background creation alarm to start.
 pausedGame = false;
 
 paused_surf = -1;
+create_sprite = 0
+
+global.rotations = 0;
+global.global_angle = 0;
+//show_debug_message(string(global.turnSpeed));
 
 if layer_get_visible("Walls") = true //hiding the platform/wall UI
 {
