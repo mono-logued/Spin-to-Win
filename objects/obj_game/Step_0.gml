@@ -35,3 +35,16 @@ if room == rm_main
 		alarm[4]++;
 	}
 }
+//show_debug_message(string(global.turnSpeed));
+global.global_angle = ceil(global.global_angle +global.turnSpeed);
+if (global.global_angle - (global.rotations * 90) >=90)
+{
+		global.rotations +=1
+}
+
+if ((global.healthPoints <=0) && (create_sprite==0)){
+	show_debug_message("creating fadescreen object")
+	instance_create_layer(0, 0,"fadescreen",obj_fadescreen);
+	create_sprite+=1
+	
+}
