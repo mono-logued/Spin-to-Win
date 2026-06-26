@@ -16,6 +16,21 @@ if bgCreated == false
 	alarm[2] = irandom_range(30,50);
 }
 
+if keyboard_check_pressed(ord("F"))
+{
+	if view_get_visible(global.viewPort) == false
+	{
+		view_set_visible(global.viewNot, false);
+		view_set_visible(global.viewPort, true);
+	}
+	else
+	{
+		view_set_visible(global.viewNot, true);
+		view_set_visible(global.viewPort, false);
+	}
+}
+		
+
 if keyboard_check_pressed(vk_escape)
 {
 	global.pausedGame = !global.pausedGame;
