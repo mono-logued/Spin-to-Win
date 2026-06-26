@@ -1,3 +1,4 @@
+
 if global.viewPort == 0
 {
 	draw_text(x-8,y-80,global.healthPoints);
