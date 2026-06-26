@@ -2,6 +2,8 @@ window_set_size(1280, 720);
 
 global.turnSpeed = 1; //speed of the wheel
 
+global.backupSpeed = global.turnSpeed;
+
 global.coinCount = 0; //setting score to 0
 
 coinCreated = false; //allowing the coin creation alarm to start.
@@ -10,9 +12,8 @@ hazardCreated = false; //allowing the hazard creation alarm to start.
 
 bgCreated = false; //allowing background creation alarm to start.
 
-pausedGame = false;
+global.pausedGame = false;
 
-paused_surf = -1;
 create_sprite = 0
 
 global.rotations = 0;
