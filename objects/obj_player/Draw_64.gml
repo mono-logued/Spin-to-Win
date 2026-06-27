@@ -8,11 +8,15 @@ if global.doublejump{
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_color(c_white);
-	draw_text(room_width/2,room_height *14/19, "doublejump active!");
+	draw_text(room_width/2,room_height *14/19, "Taxes filed! Doublejump active!");
+	draw_set_halign(fa_top);
+	draw_set_valign(fa_left);
 }
 if showtext{
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_color(c_white);
-	draw_text(room_width/2,room_height *14/19, "You failed. Run faster");
+	draw_text(room_width/2,room_height *14/19, "You failed to do your taxes. Work harder.");
+	draw_set_halign(fa_top);
+	draw_set_valign(fa_left);
 }

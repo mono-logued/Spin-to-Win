@@ -15,7 +15,7 @@ if bgCreated == false
 	bgCreated = true;
 	alarm[2] = irandom_range(30,50);
 }
-if powerupCreated == false and pausedGame == false{
+if powerupCreated == false and global.pausedGame == false{
 	powerupCreated = true;
 	alarm[3] = irandom_range(1000,1500);
 }
@@ -60,6 +60,7 @@ if (global.global_angle - (global.rotations * 90) >=90)
 if ((global.healthPoints <=0) && (create_sprite==0)){
 	show_debug_message("creating fadescreen object")
 	instance_create_layer(0, 0,"fadescreen",obj_fadescreen);
-	create_sprite+=1
+	audio_play_sound(snd_loss, 2, false);
+	create_sprite+=1;
 	
 }

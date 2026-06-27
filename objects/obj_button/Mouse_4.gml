@@ -10,7 +10,6 @@ if textDisplay == "Continue & Restart"
 {
 	game_restart();
 }
-
 else if textDisplay == "Exit Game"
 {
 	game_end()

@@ -20,6 +20,7 @@ y += ysp;
 
 if keyboard_check_pressed(vk_space) and place_meeting(x, y+2, obj_platform) and global.pausedGame == false
 {
+	audio_play_sound(snd_jump, 10, false);
 	jumping = true;
 	
 	alarm[0] = 15;
@@ -48,20 +49,23 @@ if place_meeting(x, y, obj_hazard) and invincibilityTime = false
 	alarm[2] = 10;
 }
 
-if global.spin_results = 1{
+if global.spin_results = 1
+{
 	show_debug_message("destroying objects and giving power")
 	instance_destroy(obj_spinner);
 	instance_destroy(obj_spinning_pointer);
 	alarm[6] = 600;
 	global.spin_results = 99;
 }
-if global.spin_results = 2{
+if global.spin_results = 2
+{
 	show_debug_message("destroying objects")
 	instance_destroy(obj_spinner);
 	instance_destroy(obj_spinning_pointer);
 	alarm[5] = 150;
 	showtext = true;
 	global.spin_results = 99;
+}
 if global.pausedGame == true
 {
 	ysp = 0;

@@ -8,8 +8,8 @@
   "name":"obj_wheel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Wheel and Spinners",
+    "path":"folders/Objects/Wheel and Spinners.yy",
   },
   "parentObjectId":null,
   "persistent":false,
