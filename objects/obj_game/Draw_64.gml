@@ -1,1 +1,1 @@
-draw_text(x,y,global.coinCount);
+draw_text(x +(room_width *.06),y + (room_height*.04),"Coins: " +string(global.coinCount));

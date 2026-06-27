@@ -15,6 +15,10 @@ if bgCreated == false and pausedGame == false
 	bgCreated = true;
 	alarm[2] = irandom_range(30,50);
 }
+if powerupCreated == false and pausedGame == false{
+	powerupCreated = true;
+	alarm[3] = irandom_range(1000,1500);
+}
 
 if room == rm_main
 {
