@@ -12,6 +12,9 @@ hazardCreated = false; //allowing the hazard creation alarm to start.
 
 bgCreated = false; //allowing background creation alarm to start.
 
+powerupCreated = false;
+
+global.spin_results = 99
 global.pausedGame = false;
 
 create_sprite = 0

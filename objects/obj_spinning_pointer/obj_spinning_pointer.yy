@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu",
+  "%Name":"obj_spinning_pointer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_menu",
+  "name":"obj_spinning_pointer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Essential",
-    "path":"folders/Objects/Game Essential.yy",
+    "name":"BG Items",
+    "path":"folders/Objects/BG Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_spinning_pointer",
+    "path":"sprites/spr_spinning_pointer/spr_spinning_pointer.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
