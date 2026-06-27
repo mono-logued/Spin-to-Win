@@ -9,8 +9,8 @@
   "name":"obj_spinning_pointer",
   "overriddenProperties":[],
   "parent":{
-    "name":"BG Items",
-    "path":"folders/Objects/BG Items.yy",
+    "name":"Wheel and Spinners",
+    "path":"folders/Objects/Wheel and Spinners.yy",
   },
   "parentObjectId":null,
   "persistent":false,

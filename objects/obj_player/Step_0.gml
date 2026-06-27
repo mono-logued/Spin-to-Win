@@ -20,6 +20,7 @@ y += ysp;
 
 if keyboard_check_pressed(vk_space) and place_meeting(x, y+2, obj_platform) and global.pausedGame == false
 {
+	audio_play_sound(snd_jump, 10, false);
 	jumping = true;
 	
 	alarm[0] = 15;

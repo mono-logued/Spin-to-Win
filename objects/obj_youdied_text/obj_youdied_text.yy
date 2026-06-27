@@ -6,8 +6,8 @@
   "name":"obj_youdied_text",
   "overriddenProperties":[],
   "parent":{
-    "name":"BG Items",
-    "path":"folders/Objects/BG Items.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

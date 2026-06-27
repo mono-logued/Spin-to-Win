@@ -60,6 +60,7 @@ if (global.global_angle - (global.rotations * 90) >=90)
 if ((global.healthPoints <=0) && (create_sprite==0)){
 	show_debug_message("creating fadescreen object")
 	instance_create_layer(0, 0,"fadescreen",obj_fadescreen);
-	create_sprite+=1
+	audio_play_sound(snd_loss, 2, false);
+	create_sprite+=1;
 	
 }

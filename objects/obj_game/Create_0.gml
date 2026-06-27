@@ -30,3 +30,8 @@ if layer_get_visible("Walls") = true //hiding the platform/wall UI
 
 
 view_set_visible(global.viewPort, true); //makes the chosen view the main view.
+
+if room == rm_main
+{
+	audio_play_sound(snd_music, 2, true);
+}
