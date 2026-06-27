@@ -1,16 +1,16 @@
-if coinCreated == false and pausedGame == false //if the alarm isn't active
+if coinCreated == false//if the alarm isn't active
 {
 	coinCreated = true; //deactivate the alarm
 	alarm[0] = irandom_range(100,450);
 }
 
-if hazardCreated == false and pausedGame == false //if the alarm isn't active
+if hazardCreated == false //if the alarm isn't active
 {
 	hazardCreated = true; //deactivate the alarm
 	alarm[1] = irandom_range(50,120);
 }
 
-if bgCreated == false and pausedGame == false
+if bgCreated == false
 {
 	bgCreated = true;
 	alarm[2] = irandom_range(30,50);
@@ -20,24 +20,35 @@ if powerupCreated == false and pausedGame == false{
 	alarm[3] = irandom_range(1000,1500);
 }
 
-if room == rm_main
+if keyboard_check_pressed(ord("F"))
 {
-	if keyboard_check_pressed(vk_escape)
+	if view_get_visible(global.viewPort) == false
 	{
-		pausedGame = !pausedGame;
-		if pausedGame == false
-		{
-			instance_activate_all();
-			surface_free(paused_surf);
-			paused_surf = -1;
-		}
+		view_set_visible(global.viewNot, false);
+		view_set_visible(global.viewPort, true);
 	}
-	if pausedGame == true
+	else
 	{
+		view_set_visible(global.viewNot, true);
+		view_set_visible(global.viewPort, false);
+	}
+}
 		
-		alarm[3]++;
-		alarm[4]++;
-	}
+
+if keyboard_check_pressed(vk_escape)
+{
+	global.pausedGame = !global.pausedGame;
+}
+if global.pausedGame == false
+{
+	global.turnSpeed = global.backupSpeed;
+}
+
+if global.pausedGame == true
+{
+	alarm[0]++;
+	alarm[1]++;
+	alarm[2]++;
 }
 //show_debug_message(string(global.turnSpeed));
 global.global_angle = ceil(global.global_angle +global.turnSpeed);
