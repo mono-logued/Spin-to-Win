@@ -55,13 +55,15 @@ if global.spin_results = 1{
 	alarm[6] = 600;
 	global.spin_results = 99;
 }
-if global.spin_results = 2{
+if global.spin_results = 2
+{
 	show_debug_message("destroying objects")
 	instance_destroy(obj_spinner);
 	instance_destroy(obj_spinning_pointer);
 	alarm[5] = 150;
 	showtext = true;
 	global.spin_results = 99;
+}
 if global.pausedGame == true
 {
 	ysp = 0;
